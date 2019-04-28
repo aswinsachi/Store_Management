@@ -16,8 +16,8 @@ String pass=request.getParameter("password");
 String email=request.getParameter("email");
 String phone=request.getParameter("phone");
 
-
-
+%>
+<%
 
 String sql1="select * from vendor where username='"+uname+"'";
 ResultSet u=obj.Retrievedata(sql1);
@@ -30,9 +30,10 @@ if(u.next()){
 </script>
 
 <%}
+
 String sql2="select * from vendor where phone='"+phone+"'";
 ResultSet p=obj.Retrievedata(sql2);
-if(u.next()){
+if(p.next()){
     flag=1;
     %>
     <script>
@@ -40,11 +41,29 @@ if(u.next()){
     
 </script>
 
-}
+<%}
 
+String sql3="select * from vendor where email='"+email+"'";
+ResultSet e=obj.Retrievedata(sql3);
+if(e.next()){
+    flag=1;
+    %>
+    <script>
+    alert("Vendor email Registered already ");
+    
+</script>
 
+<%}
+if(flag==1)
+{%>
+<script>
+    
+    location.href="vendorLogin.jsp";
+</script>
+<%}
 
-
+if(flag==0)
+{
 String sql="insert into vendor values(null,'"+name+"','"+uname+"','"+pass+"','"+email+"','"+phone+"')";
 int i=obj.ExecuteQueriess(sql);
 if(i>0)
@@ -54,4 +73,4 @@ if(i>0)
     alert("Vendor Registered Successfully");
     location.href="vendorLogin.jsp";
 </script>
-<%}%>
+<%}}%>
