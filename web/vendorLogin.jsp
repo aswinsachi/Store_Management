@@ -15,7 +15,7 @@
   </style>
  
 
-<title>Starbucks Store</title>
+<title>Mini Store</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Barter Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -59,7 +59,7 @@ $(function() {
 			<div class="w3l_social_icons">	
 			</div>
 			<div class="w3ls_logo">
-				<h1><a href="index.html">STARBUCKS STORES</a></h1>
+				<h1><a href="index.html">MINI STORE</a></h1>
 			</div>
 			<div class="header_right">
 			<nav class="navbar navbar-default">

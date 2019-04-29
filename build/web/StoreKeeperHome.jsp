@@ -3,7 +3,7 @@
 <jsp:useBean id="obj" class="DbConnect.DBClass"></jsp:useBean>
 <html>
 <head>
-<title>Starbucks Stores</title>
+<title>Mini Store</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Barter Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -42,7 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3l_social_icons">	
 			</div>
 			<div class="w3ls_logo">
-				<h1><a href="index.html">STARBUCKS STORE</a></h1>
+				<h1><a href="index.html">MINI STORE</a></h1>
 			</div>
 			<div class="header_right">
 			<nav class="navbar navbar-default">
@@ -130,7 +130,7 @@ background: rgb(51, 51, 51) none repeat scroll 0% 0% / cover;}">
 	
         
 			<div class="copy-right">
-                            <center> <p>ASAS STORE @ 2017</p></center>
+                            <center> <p>MINI STORE</p></center>
 			</div>
 			<div class="copy-right-social1">
 				<div class="w3l_social_icons w3l_social_icons1">

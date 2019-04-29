@@ -2,7 +2,7 @@
 <%@page import="java.sql.ResultSet"%>
 <html>
 <head>
-<title>Starbucks Stores</title>
+<title>Mini Stores</title>
 <jsp:useBean id="obj" class="DbConnect.DBClass"></jsp:useBean>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -59,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			</div>
 			<div class="w3ls_logo">
-				<h1><a href="index.html">STARBUCKS STORES</a></h1>
+				<h1><a href="index.html">MINI STORE</a></h1>
 			</div>
 			<div class="header_right">
 			<nav class="navbar navbar-default">
@@ -172,7 +172,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	
 			<div class="copy-right">
-                            <center> <p>STARBUCKS  </p> </center>
+                            <center> <p>MINI STORE </p> </center>
 			</div>
 			<div class="copy-right-social1">
 				<div class="w3l_social_icons w3l_social_icons1">

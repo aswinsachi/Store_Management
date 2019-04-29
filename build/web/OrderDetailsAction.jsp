@@ -2,7 +2,7 @@
 <%@page import="java.sql.ResultSet"%>
 <html>
 <head>
-<title>Amrita Stores</title>
+<title>Mini Store</title>
 <jsp:useBean id="obj" class="DbConnect.DBClass"></jsp:useBean>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -147,7 +147,7 @@ if(!rs.isBeforeFirst()){
 
 
 			<div class="copy-right">
-				<p>ASAS STORE @ 2017 </p>
+				<p>MINI STORE </p>
 			</div>
 			<div class="copy-right-social1">
 				<div class="w3l_social_icons w3l_social_icons1">

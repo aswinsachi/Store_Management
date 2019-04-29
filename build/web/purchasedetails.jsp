@@ -1,7 +1,7 @@
 <%@page import="java.sql.ResultSet"%>
 <html>
 <head>
-<title>Starbucks Store</title>
+<title>Mini Store</title>
 <jsp:useBean id="obj" class="DbConnect.DBClass"></jsp:useBean>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -36,7 +36,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			</div>
 			<div class="w3ls_logo">
-				<h1><a href="index.html">STARBUCKS STORES</a></h1>
+				<h1><a href="index.html">MINI STORE</a></h1>
 			</div>
 			<div class="header_right">
 			<nav class="navbar navbar-default">
@@ -161,7 +161,7 @@ if(!rs.isBeforeFirst()){
 
 
 			<div class="copy-right">
-				<p>ASAS STORE @ 2017 </p>
+				<p>MINI STORE  </p>
 			</div>
 			<div class="copy-right-social1">
 				<div class="w3l_social_icons w3l_social_icons1">

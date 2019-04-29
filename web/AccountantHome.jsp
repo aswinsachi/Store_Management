@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title>Starbucks cafe</title>
+<title>Mini store</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Barter Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -31,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3l_social_icons">	
 			</div>
 			<div class="w3ls_logo">
-				<h1><a href="index.html">STARBUCKS STORE</a></h1>
+				<h1><a href="index.html">MINI STORE</a></h1>
 			</div>
 			<div class="header_right">
 			<nav class="navbar navbar-default">
@@ -93,7 +93,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	
 			<div class="copy-right">
-				<p>ASAS STORE @ 2017</p>
+				<p>MINI STORE</p>
 			</div>
 			<div class="copy-right-social1">
 				<div class="w3l_social_icons w3l_social_icons1">
