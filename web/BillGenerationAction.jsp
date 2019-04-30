@@ -19,6 +19,7 @@ int sval=0;
 int fstock=0;
 String sql="insert into billing values(null,'"+itemid+"','"+tprice+"','"+bdate+"','"+itemno+"','"+bid+"')";
 int i=obj.ExecuteQueriess(sql);
+
 String sql1="select * from item where itemid='"+itemid+"'";
 ResultSet r=obj.Retrievedata(sql1);
 if(r.next())
@@ -27,8 +28,8 @@ if(r.next())
   fstock=sval-itemno;
  
 }
-  String mm="update item set stockval='"+fstock+"' where itemid='"+itemid+"'";
-  int ii=obj.ExecuteQueriess(mm);
+ // String mm="update item set stockval='"+fstock+"' where itemid='"+itemid+"'";
+  //int ii=obj.ExecuteQueriess(mm);
 if(fstock==0 || fstock<0)
 {   
 %>
@@ -36,7 +37,12 @@ if(fstock==0 || fstock<0)
     alert("No Available Stock");
     location.href="StockKeeperHome.jsp";
 </script>
-<%}else{%>
+<%}else{
+String sql2="update item set stockval=stockval-"+itemno+" where itemid='"+itemid+"'";
+int j=obj.ExecuteQueriess(sql2);
+
+%>
+
 <script>
     alert("Bill generated!!!");
     location.href="BillGeneration.jsp";

@@ -176,7 +176,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="footer">
 			<div class="copy-right">
                             <div>
-                                &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;    <p>ASAS STORE @ 2017</p>
+                                &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;    <p>MINI STORE</p>
 			</div>
 			<div class="copy-right-social1">
 				<div class="w3l_social_icons w3l_social_icons1">

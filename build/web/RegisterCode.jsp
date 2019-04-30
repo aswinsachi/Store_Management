@@ -16,6 +16,7 @@
     String email = request.getParameter("email");
     String phone = request.getParameter("phone");
     String type = request.getParameter("type");
+    String forget =request.getParameter("forget");
 %>
 <%
     if (type.equals("StoreKeeper")) {
@@ -99,7 +100,7 @@ flag = 1;%>
 <%}
     if (flag == 0) {
 
-        String sql = "insert into register values(null,'" + name + "','" + uname + "','" + pass + "','" + email + "','" + phone + "','" + type + "')";
+        String sql = "insert into register values(null,'" + name + "','" + uname + "','" + pass + "','" + email + "','" + phone + "','" + type + "','"+forget+"')";
         int i = obj.ExecuteQueriess(sql);
         if (i > 0) {
 %>

@@ -125,6 +125,8 @@ if(!rs.isBeforeFirst()){
                             <%
 	if(st==0)
 	{
+            String sql1="Update item set stockval=stockval+"+no+" where itemid='"+itemid+"'";
+            int i=obj.ExecuteQueriess(sql1);
 	%>
         <td>  <a href="DeliverOrder.jsp?orderid=<%=orderid%>" class="btn btn-primary">Deliver</a></td>
     <%
